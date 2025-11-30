@@ -5,7 +5,7 @@ A modern, secure SSTP VPN client for Android built with Flutter and Material Des
 ![Android](https://img.shields.io/badge/Android-8.0+-green.svg)
 ![Flutter](https://img.shields.io/badge/Flutter-3.x-blue.svg)
 
-Telegram Channel: @CluvexStudio
+Telegram Channel: [@CluvexStudio](https://t.me/CluvexStudio)
 
 ## Features
 
